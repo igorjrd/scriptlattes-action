@@ -57,7 +57,7 @@ jobs:
             echo "Diretório ./output limpo"
           fi
       - name: Executa scriptlattes action
-        uses: ./
+        uses: igorjrd/scriptlattes-action@1.0.0
         with:
           config-file-path: ./scriptlattes.config
           output-directory-path: ./output
